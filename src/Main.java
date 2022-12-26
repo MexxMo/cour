@@ -11,7 +11,7 @@ public class Main {
             new Employee("Сафонова Илона Улебовна", 9000, 4),
             new Employee("Соболев Геннадий Пётрович", 30000, 4),
             new Employee("Данилов Анатолий Аркадьевич", 40000, 5),
-            new Employee("Лихачёв Рубен Мэлорович", 90000, 5)
+            new Employee("Лихачёв Артём Мэлорович", 90000, 5)
     };
 
     public static void printEmployee() {

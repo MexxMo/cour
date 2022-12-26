@@ -8,9 +8,8 @@ public class Employee {
     private static Integer idCounter = 1;
 
 
-
-    public Employee(String fullName,Integer salary,Integer departmentId){
-        this.departmentId =  departmentId;
+    public Employee(String fullName, Integer salary, Integer departmentId) {
+        this.departmentId = departmentId;
         this.id = idCounter++;
         this.fullName = fullName;
         this.salary = salary;
@@ -45,9 +44,9 @@ public class Employee {
     public String toString() {
         return
                 "id=" + id +
-                ", Ф.И.О.: " + fullName +
-                ", зарплата " + salary +
-                ", отдел " + departmentId;
+                        ", Ф.И.О.: " + fullName +
+                        ", зарплата " + salary +
+                        ", отдел " + departmentId;
     }
 }
 
